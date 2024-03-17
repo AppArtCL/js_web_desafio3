@@ -1,0 +1,50 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Ejercicio 3 */
+#cuadroAzul {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+#cuadroRojo {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+#cuadroVerde {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+#cuadroAmarillo {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+}
+
+/* Ejercicio 4 */
+#contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#key {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+
